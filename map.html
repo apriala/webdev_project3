@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Alexander Priala Project 3: Map</title>
   <link rel="stylesheet" href="css/style.css">
+  <script async src="js/script.js"></script>
 </head>
 <body>
   <header>
@@ -21,5 +22,17 @@
   <div>
     <h1>Welcome to my Project Site!</h1>
   </div>
+  <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 41.8729, lng: -87.62793},
+          zoom: 12
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+    async defer></script>
  </body>
  </html>
