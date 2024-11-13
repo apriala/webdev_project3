@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-image: linear-gradient(to bottom right, #FF474C, #D3D3D3);
+}
+
+#navbar {
+  background-color: #8B0000;
+  overflow: hidden;
+}
+
+#navbar ul {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  float: left;
+  width: 33.33%;
+}
+
+#navbar ul li a {
+  text-align: center;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  font-size: 1.25Em;
+  font-family: 'Lucida Console', monospace;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  font-size: 2em;
+  font-family: 'Lucida Console', monospace;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Lucida Console', monospace;
+  color: #000000;
+  padding: 50px;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 1em;
+  font-family: 'Roboto';
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
