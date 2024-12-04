@@ -62,7 +62,7 @@ ul{
   padding: 20%;
 }
 
-@media (max-width: 600px) {
+@media (mid-width: 600px) {
   section {
     padding: 1em;
   }
